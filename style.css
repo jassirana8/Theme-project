@@ -1,0 +1,108 @@
+*{
+ margin: 0px;
+ padding:0px;
+ background-color: black;
+ color: white;
+}
+header{
+    padding-bottom: 30px;
+    border-bottom:3px solid grey;
+}
+.logo{
+    position: absolute;
+    top: 20px;
+    left: 30px;
+}
+
+.navigation{
+    width: 70%;
+    margin: auto;
+    margin-top: 30px;
+    text-align:center;
+}
+.navigation ul li{
+    display:inline;
+    font-size: 20px;
+    margin-left: 15px;
+}
+.navigation ul li:hover{
+    color: blue;
+    cursor: pointer;
+}
+.button{
+    position: absolute;
+    top:20px;
+    right:30px;
+}
+.btn{
+   font-weight: bolder;
+    border: none;
+    border-radius: 20px;
+}
+.btn1{
+     padding: 13px 20px;
+    background-color:blue;
+    margin-right: 10px;
+}
+.btn1:hover{
+    background-color:red;
+    border:2px solid white;
+     padding: 10px 20px;
+     cursor: pointer;
+}
+.btn2{
+    padding: 11px 20px;
+    background-color:red;
+    /* border: 2px solid white; */
+}
+.btn2:hover{
+    background-color: blue;
+    border:2px solid white;
+     padding: 10px 20px;
+    cursor: pointer;
+}
+.left-content{
+    width: 787px;
+    height: 677px;
+    display: inline;
+    float: left;
+}
+.content{
+    margin-top: 50px;
+    margin-left: 70px;
+}
+input,.sub{
+    margin-top:20px;
+    width:530px;
+    height:40px;
+    border:none;
+    border-radius: 10px;
+}
+input{
+    background-color: rgb(59, 58, 58);
+}
+input::placeholder{
+    color: white;
+    padding-left: 40px;
+    font-size: 1rem;
+}
+.sub{
+    background-color: blue;
+}
+.right-content{
+    width: 787px;
+    height: 677px;
+    display: inline;
+    float:right;
+}
+.img-box{
+    border-radius: 10px;
+    width:580px;
+    height:550px;
+    margin-top: 60px;
+    margin-left: 20px;
+    border: 10px solid skyblue;
+    background-image: url(./assets/bg.png);
+    background-size: cover;
+    background-position:  center;
+}
